@@ -26,6 +26,7 @@ public class ManualidadDAO {
         a.setDescripcion("Manualidades de cofre");
         a.setUrl("https://cdn3.videodecoracion.com/wp-content/uploads/2014/04/cofre-hecho-con-palos-de-helado.jpg");
         empMap.put(a.getNombre(), a);
+        a = new Manualidad();
         a.setNombre("plastilina");
         a.setDescripcion("manualidades en plantilina, ejemplos base");
         a.setUrl("https://static.guiainfantil.com/pictures/galerias/6928-animales-de-la-selva-de-plastilina-manualidades-infantiles.jpg");

@@ -26,6 +26,7 @@ public class EventoDAO {
         a.setFecha("Domingo 26 de Mayo");
         a.setUrl("http://www.elcuriosity.com/wp-content/uploads/2015/02/mapa-del-tesoro.jpg");
         empMap.put(a.getNombre(), a);
+        a = new Evento();
         a.setNombre("Cuerda");
         a.setFecha("Sabado 31 Agosto");
         a.setUrl("https://i.ytimg.com/vi/bqhg0Jrw70g/hqdefault.jpg");

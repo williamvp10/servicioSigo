@@ -28,6 +28,7 @@ public class JuegoDAO {
                 + "a los demas jugadores, el juego acaba cuando todos los jugadores esten ponchados.");
         a.setUrl("http://2.bp.blogspot.com/-3UoYhde59DY/UbAbvqtzgyI/AAAAAAAAAB4/aBOTv8fMnUA/s400/descarga+(6).jpg");
         empMap.put(a.getNombre(), a);
+         a = new Juego();
         a.setNombre("Cuerda");
         a.setDescripcion("la cuerda será girada por Dos Personas, una a cada extremo, mientras que las otras personas serán las encargadas de saltar,");
         a.setUrl("https://www.educapeques.com/wp-content/uploads/2016/12/la-comba-300x200.jpg");
